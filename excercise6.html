@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 6</title>
+</head>
+
+<body>
+    <hr>
+    <!-- Text Input Elements -->
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName">
+    <br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName">
+    <br>
+    <hr>
+
+    <!-- Button Element -->
+    <button onclick="submitForm()">Submit</button>
+
+
+    <!-- Input Button Element -->
+    <input type="button" value="Click Me" onclick="alert('Button Clicked!')">
+    <br>
+    <hr>
+
+    <!-- Select Element -->
+    <label for="country">Select a Country:</label>
+    <select id="country" name="country">
+        <option value="JP">Japan</option>
+        <option value="US">United States</option>
+        <option value="CN">China</option>
+        <option value="IE">Ireland</option>
+    </select>
+    <br>
+    <hr>
+
+    <!-- Radio Input Elements -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <hr>
+
+    <!-- Checkbox Input Elements -->
+    <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+    <label for="subscribeNews">Subscribe to Newsletter</label>
+    <br>
+
+    <input type="checkbox" id="acceptTerms" name="accept" value="terms">
+    <label for="acceptTerms">Accept Terms and Conditions</label>
+    <hr>
+
+    <script>
+        function submitForm() {
+            // You can add JavaScript logic to handle form submission here
+            alert("Form submitted!");
+        }
+    </script>
+</body>
+
+</html>
